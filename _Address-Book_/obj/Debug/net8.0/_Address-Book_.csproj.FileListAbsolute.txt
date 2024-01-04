@@ -1,0 +1,14 @@
+C:\Practice\_Address-Book_\_Address-Book_\bin\Debug\net8.0\_Address-Book_.exe
+C:\Practice\_Address-Book_\_Address-Book_\bin\Debug\net8.0\_Address-Book_.deps.json
+C:\Practice\_Address-Book_\_Address-Book_\bin\Debug\net8.0\_Address-Book_.runtimeconfig.json
+C:\Practice\_Address-Book_\_Address-Book_\bin\Debug\net8.0\_Address-Book_.dll
+C:\Practice\_Address-Book_\_Address-Book_\bin\Debug\net8.0\_Address-Book_.pdb
+C:\Practice\_Address-Book_\_Address-Book_\obj\Debug\net8.0\_Address-Book_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Practice\_Address-Book_\_Address-Book_\obj\Debug\net8.0\_Address-Book_.AssemblyInfoInputs.cache
+C:\Practice\_Address-Book_\_Address-Book_\obj\Debug\net8.0\_Address-Book_.AssemblyInfo.cs
+C:\Practice\_Address-Book_\_Address-Book_\obj\Debug\net8.0\_Address-Book_.csproj.CoreCompileInputs.cache
+C:\Practice\_Address-Book_\_Address-Book_\obj\Debug\net8.0\_Address-Book_.dll
+C:\Practice\_Address-Book_\_Address-Book_\obj\Debug\net8.0\refint\_Address-Book_.dll
+C:\Practice\_Address-Book_\_Address-Book_\obj\Debug\net8.0\_Address-Book_.pdb
+C:\Practice\_Address-Book_\_Address-Book_\obj\Debug\net8.0\_Address-Book_.genruntimeconfig.cache
+C:\Practice\_Address-Book_\_Address-Book_\obj\Debug\net8.0\ref\_Address-Book_.dll
