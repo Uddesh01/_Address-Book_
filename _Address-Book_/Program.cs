@@ -10,8 +10,9 @@ class Program
             Console.WriteLine("\nWhat can I do for you?");
             Console.WriteLine("1. Add a contact");
             Console.WriteLine("2. Edit a contact");
-            Console.WriteLine("3. View all contacts");
-            Console.WriteLine("4. Exit");
+            Console.WriteLine("3. Delete a contact");
+            Console.WriteLine("4. View all contacts");
+            Console.WriteLine("5. Exit");
 
             string choice = Console.ReadLine();
 
@@ -69,10 +70,19 @@ class Program
                     break;
 
                 case "3":
-                    addressBook.DisplayAllContacts();
+                    Console.Write("\nEnter the first name of the contact to delete: ");
+                    string firstNameToDelete = Console.ReadLine();
+                    Console.Write("Enter the last name of the contact to delete: ");
+                    string lastNameToDelete = Console.ReadLine();
+
+                    addressBook.DeleteContact(firstNameToDelete, lastNameToDelete);
                     break;
 
                 case "4":
+                    addressBook.DisplayAllContacts();
+                    break;
+
+                case "5":
                     Console.WriteLine("Exiting the program");
                     return;
 

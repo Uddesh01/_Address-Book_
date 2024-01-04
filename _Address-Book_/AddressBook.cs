@@ -44,6 +44,21 @@
             }
         }
 
+        public void DeleteContact(string firstName, string lastName)
+        {
+            Contact contactToDelete = FindContactByName(firstName, lastName);
+
+            if (contactToDelete != null)
+            {
+                contactList.Remove(contactToDelete);
+                Console.WriteLine("Contact deleted successfully!");
+            }
+            else
+            {
+                Console.WriteLine("Contact not found in the address book.");
+            }
+        }
+
         public void DisplayAllContacts()
         {
             Console.WriteLine("\nAll Contacts in the Address Book:");
