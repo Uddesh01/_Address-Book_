@@ -1,4 +1,5 @@
 ﻿using _Address_Book_;
+using System.Text.RegularExpressions;
 class Program
 {
     static void Main()
@@ -37,11 +38,31 @@ class Program
                     Console.Write("Enter the email: ");
                     string email = Console.ReadLine();
 
-                    Contact newContact = new Contact(firstName, lastName, address, city, state, zip, phoneNumber, email);
+                    string phoneNumberString = Convert.ToString(phoneNumber);
+                    string zipString = Convert.ToString(zip);
 
-                    addressBook.AddContact(newContact);
+                    /* Console.WriteLine($"FirstName: {firstName}, IsValid: {Regex.IsMatch(firstName, @"^[a-zA-Z]+$")}");
+                     Console.WriteLine($"LastName: {lastName}, IsValid: {Regex.IsMatch(lastName, @"^[a-zA-Z]+$")}");
+                     Console.WriteLine($"Address: {address}, IsValid: {Regex.IsMatch(address, @"^[\w]+$")}");
+                     Console.WriteLine($"City: {city}, IsValid: {Regex.IsMatch(city, @"^[a-zA-Z]+$")}");
+                     Console.WriteLine($"State: {state}, IsValid: {Regex.IsMatch(state, @"^[a-zA-Z]+$")}");
+                     Console.WriteLine($"PhoneNumber: {phoneNumberString}, IsValid: {Regex.IsMatch(phoneNumberString, @"^[6-9]\d{9}$")}");
+                     Console.WriteLine($"ZipCode: {zipString}, IsValid: {Regex.IsMatch(zipString, @"^[1-9]{1}[0-9]{5}$")}");
+                     Console.WriteLine($"Email: {email}, IsValid: {Regex.IsMatch(email, @"^[\w.]+@[\w]+.[\w]{2,5}$")}"); */
 
-                    Console.WriteLine("\nContact added successfully!");
+                    if (Regex.IsMatch(firstName, @"^[a-zA-Z]+$") && Regex.IsMatch(lastName, @"^[a-zA-Z]+$") &&
+                        Regex.IsMatch(address, @"^[\w]+$") && Regex.IsMatch(city, @"^[a-zA-Z]+$") &&
+                        Regex.IsMatch(state, @"^[a-zA-Z]+$") && Regex.IsMatch(phoneNumberString, @"^[6-9]\d{9}$") &&
+                        Regex.IsMatch(zipString, @"^[1-9]{1}[0-9]{5}$") && Regex.IsMatch(email, @"^[\w.]+@[\w]+.[\w]{2,5}$"))
+                    {
+                        Contact newContact = new Contact(firstName, lastName, address, city, state, zip, phoneNumber, email);
+                        addressBook.AddContact(newContact);
+                        Console.WriteLine("\nContact added successfully!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("\nInvalid input.Contact not added.Please check the input.");
+                    }
                     break;
 
                 case "2":
