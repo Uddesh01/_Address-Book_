@@ -13,3 +13,11 @@ C:\Practice\_Address-Book_\_Address-Book_\obj\Debug\net8.0\_Address-Book_.pdb
 C:\Practice\_Address-Book_\_Address-Book_\obj\Debug\net8.0\_Address-Book_.genruntimeconfig.cache
 C:\Practice\_Address-Book_\_Address-Book_\obj\Debug\net8.0\ref\_Address-Book_.dll
 C:\Practice\_Address-Book_\_Address-Book_\obj\Debug\net8.0\_Address-Book_.sourcelink.json
+C:\Practice\_Address-Book_\_Address-Book_\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Practice\_Address-Book_\_Address-Book_\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Practice\_Address-Book_\_Address-Book_\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Practice\_Address-Book_\_Address-Book_\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Practice\_Address-Book_\_Address-Book_\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Practice\_Address-Book_\_Address-Book_\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Practice\_Address-Book_\_Address-Book_\obj\Debug\net8.0\_Address-Book_.csproj.AssemblyReference.cache
+C:\Practice\_Address-Book_\_Address-Book_\obj\Debug\net8.0\_Address-Book_.csproj.CopyComplete

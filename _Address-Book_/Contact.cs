@@ -22,5 +22,15 @@
             PhoneNumber = phoneNumber;
             Email = email;
         }
+        public override string ToString()
+        {
+            return $"Name: {FirstName} {LastName}\n" +
+                   $"Address: {Address}\n" +
+                   $"City: {City}\n" +
+                   $"State: {State}\n" +
+                   $"ZIP: {ZipCode}\n" +
+                   $"Phone Number: {PhoneNumber}\n" +
+                   $"Email: {Email}\n";
+        }
     }
 }
